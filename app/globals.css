@@ -24,3 +24,17 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Responsive helpers for Navbar mobile menu */
+.desktop-links { display: flex; }
+.hamburger { display: none; }
+
+@media (max-width: 768px) {
+  .desktop-links { display: none !important; }
+  .hamburger { display: inline-flex !important; }
+}
+
+/* hide side socials on small screens */
+@media (max-width: 768px) {
+  .side-socials { display: none !important; }
+}

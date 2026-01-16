@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 import Logo from "./ui/Logo";
 import NavLinks from "./ui/NavLinks";
 import LangSelector from "./ui/LangSelector";
+import MobileMenu from "./MobileMenu";
 
 const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -15,6 +16,8 @@ const Navbar: React.FC = () => {
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
     <header
@@ -45,10 +48,30 @@ const Navbar: React.FC = () => {
         </div>
 
         <div style={{ display: "flex", alignItems: "center", gap: 22 }}>
-          <NavLinks />
-          <LangSelector />
+          <div className="desktop-links" style={{ display: "flex", alignItems: "center", gap: 22 }}>
+            <NavLinks />
+            <LangSelector />
+          </div>
+
+          <button
+            className="hamburger"
+            aria-label="Open menu"
+            onClick={() => setMobileOpen(true)}
+            style={{
+              display: "none",
+              background: "transparent",
+              border: "none",
+              color: "#cfc6d9",
+              fontSize: 20,
+              cursor: "pointer",
+            }}
+          >
+            ☰
+          </button>
         </div>
       </nav>
+
+      <MobileMenu open={mobileOpen} onClose={() => setMobileOpen(false)} />
     </header>
   );
 };

@@ -22,7 +22,7 @@ const socials: Array<{ href: string; label: string; svg: string }> = [
 
 const SideSocials: React.FC = () => {
   return (
-    <div
+    <div className="side-socials"
       aria-hidden
       style={{
         position: "fixed",
