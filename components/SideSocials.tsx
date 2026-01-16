@@ -26,18 +26,17 @@ const SideSocials: React.FC = () => {
       aria-hidden
       style={{
         position: "fixed",
-        left: 18,
+        left: 26,
         top: 0,
         height: "100vh",
         zIndex: 50,
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        paddingTop: 48,
         pointerEvents: "none",
       }}
     >
-      <div style={{ width: 2, height: "70vh", background: "rgba(255,255,255,0.06)" }} />
+      <div style={{ width: 2, height: "30vh", background: "rgba(255,255,255,0.06)" }} />
 
       <div style={{ display: "flex", flexDirection: "column", gap: 16, marginTop: 18, pointerEvents: "auto" }}>
         {socials.map((s) => (

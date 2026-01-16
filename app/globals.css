@@ -5,6 +5,11 @@
   --foreground: #ABB2BF;
 }
 
+@font-face {
+  font-family: firaCode;
+  src: url('../public/FiraCode-VariableFont_wght.ttf');
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
