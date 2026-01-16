@@ -43,13 +43,13 @@ const Page = () => {
       <Navbar />
       <SideSocials />
 
-      <main style={{ maxWidth: 1200, margin: '40px auto', padding: '20px 28px' }}>
-        <h1 style={{ color: '#d6b7ff', marginBottom: 6 }}>/projects</h1>
+      <main className="section-container">
+        <h1 className="section-title">/projects</h1>
         <p style={{ color: '#9aa0b4', marginTop: 0 }}>List of my projects</p>
 
         <section style={{ marginTop: 28 }}>
-          <h2 style={{ color: '#d6b7ff' }}>#complete-apps</h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 16, marginTop: 12 }}>
+          <h2 className="section-title">#complete-apps</h2>
+          <div className="projects-grid">
             {completeApps.map((p) => (
               <ProjectCard key={p.title} title={p.title} desc={p.desc} tags={p.tags} thumbnail={p.thumbnail} actions={p.actions} />
             ))}
@@ -57,8 +57,8 @@ const Page = () => {
         </section>
 
         <section style={{ marginTop: 40 }}>
-          <h2 style={{ color: '#d6b7ff' }}>#small-projects</h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 12, marginTop: 12 }}>
+          <h2 className="section-title">#small-projects</h2>
+          <div className="projects-grid">
             {smallProjects.map((p) => (
               <ProjectCard key={p.title} title={p.title} desc={p.desc} tags={p.tags} />
             ))}

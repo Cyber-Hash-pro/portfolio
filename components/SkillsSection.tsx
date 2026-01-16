@@ -2,10 +2,10 @@ import React from "react";
 
 const SkillsSection: React.FC = () => {
   return (
-    <section style={{ maxWidth: 1200, margin: "40px auto", padding: "20px 28px" }}>
-      <h2 style={{ color: "#d6b7ff", marginBottom: 16 }}>#skills</h2>
+    <section className="section-container">
+      <h2 className="section-title">#skills</h2>
 
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 280px", gap: 24, alignItems: "start" }}>
+      <div className="skills-layout">
         <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
           <div style={{ width: 80, height: 80, border: "1px solid rgba(255,255,255,0.04)", borderRadius: 6 }} />
           <div style={{ width: 80, height: 80, border: "1px solid rgba(255,255,255,0.04)", borderRadius: 6 }} />

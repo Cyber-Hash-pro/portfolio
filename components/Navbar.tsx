@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
       style={{
         position: "sticky",
         top: 0,
-        zIndex: 60,
+        zIndex: 50,
         backdropFilter: "saturate(140%) blur(6px)",
         WebkitBackdropFilter: "saturate(140%) blur(6px)",
         background: scrolled ? "rgba(25,28,33,0.92)" : "transparent",
@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
-          padding: "14px 28px",
+          padding: "12px 20px",
         }}
         aria-label="Main navigation"
       >

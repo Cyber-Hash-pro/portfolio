@@ -9,13 +9,13 @@ const ContactsPage = () => {
       <Navbar />
       <SideSocials />
 
-      <main style={{ maxWidth: 1200, margin: '40px auto', padding: '20px 28px' }}>
+      <main className="section-container">
         <header style={{ marginBottom: 24 }}>
-          <h1 style={{ color: '#d6b7ff', margin: 0 }}>/contacts</h1>
+          <h1 className="section-title">/contacts</h1>
           <p style={{ color: '#9aa0b4', marginTop: 8 }}>Who am i?</p>
         </header>
 
-        <section style={{ display: 'grid', gridTemplateColumns: '1fr 420px', gap: 24, alignItems: 'start' }}>
+        <section className="contacts-layout">
           <div>
             <p style={{ color: '#9aa0b4', lineHeight: 1.9 }}>
               I&apos;m interested in freelance opportunities. However, if you have other request or

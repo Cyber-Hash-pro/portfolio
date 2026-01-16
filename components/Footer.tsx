@@ -20,8 +20,8 @@ const icons = [
 
 const Footer: React.FC = () => {
   return (
-    <footer style={{ borderTop: "1px solid rgba(255,255,255,0.04)", marginTop: 60, padding: "36px 28px", background: "transparent" }}>
-      <div style={{ maxWidth: 1200, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", gap: 16 }}>
+    <footer className="footer">
+      <div className="footer-content">
         <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
           <div style={{ width: 36 }}>
             <Logo />

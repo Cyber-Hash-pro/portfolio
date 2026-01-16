@@ -44,13 +44,13 @@ const Card: React.FC<{ title: string; desc: string; tags: string[] }> = ({ title
 
 const ProjectsSection: React.FC = () => {
   return (
-    <section style={{ maxWidth: 1200, margin: "40px auto", padding: "20px 28px" }}>
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12 }}>
-        <h2 style={{ color: "#d6b7ff", margin: 0 }}>#projects</h2>
-        <a href="#works" style={{ color: "#9aa0b4", textDecoration: "none" }}>View all →</a>
+    <section className="section-container">
+      <div className="section-header">
+        <h2 className="section-title">#projects</h2>
+        <a href="#works" className="view-all">View all →</a>
       </div>
 
-      <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
+      <div className="projects-grid">
         {projects.map((p) => (
           <Card key={p.title} title={p.title} desc={p.desc} tags={p.tags} />
         ))}

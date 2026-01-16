@@ -2,8 +2,8 @@ import React from "react";
 
 const ContactsSection: React.FC = () => {
   return (
-    <section style={{ maxWidth: 1200, margin: "60px auto", padding: "20px 28px" }} id="contacts">
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 360px", gap: 24, alignItems: "start" }}>
+    <section className="section-container" id="contacts">
+      <div className="contacts-layout">
         <div>
           <h2 style={{ color: "#d6b7ff", marginTop: 0 }}>#contacts</h2>
           <p style={{ color: "#9aa0b4", fontSize: 16, lineHeight: 1.9 }}>
