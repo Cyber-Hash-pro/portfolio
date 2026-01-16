@@ -18,12 +18,12 @@ const ContactsSection: React.FC = () => {
 
             <div style={{ display: "flex", alignItems: "center", gap: 10, color: "#cfc6d9", marginBottom: 10 }}>
               <div style={{ width: 28, height: 28, borderRadius: 6, background: "rgba(255,255,255,0.03)", display: "flex", alignItems: "center", justifyContent: "center" }}>🎮</div>
-              <div style={{ fontSize: 14 }}>!Elias#3519</div>
+                <div style={{ fontSize: 14 }}>!cyber-hash-pro#1234</div>
             </div>
 
             <div style={{ display: "flex", alignItems: "center", gap: 10, color: "#cfc6d9" }}>
               <div style={{ width: 28, height: 28, borderRadius: 6, background: "rgba(255,255,255,0.03)", display: "flex", alignItems: "center", justifyContent: "center" }}>✉️</div>
-              <div style={{ fontSize: 14 }}>elias@elias.me</div>
+                <div style={{ fontSize: 14 }}>nilesh@cyber-hash-pro.dev</div>
             </div>
           </div>
         </div>

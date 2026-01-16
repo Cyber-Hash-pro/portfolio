@@ -47,12 +47,12 @@ const ContactsPage = () => {
 
               <div style={{ display: 'flex', gap: 10, alignItems: 'center', marginBottom: 8, color: '#cfc6d9' }}>
                 <div style={{ width: 28, height: 28, borderRadius: 6, background: 'rgba(255,255,255,0.03)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>🎮</div>
-                <div>!Elias#1234</div>
+                <div>!cyber-hash-pro#1234</div>
               </div>
 
               <div style={{ display: 'flex', gap: 10, alignItems: 'center', color: '#cfc6d9' }}>
                 <div style={{ width: 28, height: 28, borderRadius: 6, background: 'rgba(255,255,255,0.03)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>✉️</div>
-                <div>elias@elias-dev.ml</div>
+                <div>nilesh@cyber-hash-pro.dev</div>
               </div>
             </div>
           </div>

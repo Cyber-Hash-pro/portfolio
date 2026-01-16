@@ -54,7 +54,7 @@ const MobileMenu: React.FC<Props> = ({ open, onClose }) => {
     >
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", paddingBottom: 16, borderBottom: "1px solid rgba(255,255,255,0.06)" }}>
         <Link href="/" onClick={onClose} style={{ color: "#fff", textDecoration: "none", fontWeight: 600, fontSize: 18 }}>
-          Elias
+          cyber-hash-pro
         </Link>
         <button onClick={onClose} aria-label="Close menu" style={{ background: "transparent", border: "none", color: "#cfc6d9", fontSize: 32, cursor: "pointer", padding: 0, lineHeight: 1 }}>
           ×

@@ -23,18 +23,16 @@ const Footer: React.FC = () => {
     <footer className="footer">
       <div className="footer-content">
         <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-          <div style={{ width: 36 }}>
-            <Logo />
-          </div>
+          
 
           <div>
-            <div style={{ color: "#cfc6d9", fontWeight: 600 }}>Elias</div>
-            <div style={{ color: "#9aa0b4", fontSize: 14 }}>elias@elias-dev.ml</div>
+            <div style={{ color: "#cfc6d9", fontWeight: 600 }}>cyber-hash-pro</div>
+            <div style={{ color: "#9aa0b4", fontSize: 14 }}>nilesh@cyber-hash-pro.dev</div>
             <div style={{ color: "#9aa0b4", marginTop: 8 }}>Web designer and front-end developer</div>
           </div>
         </div>
 
-        <div style={{ textAlign: "center", color: "#9aa0b4" }}>© Copyright 2022. Made by Elias</div>
+        <div style={{ textAlign: "center", color: "#9aa0b4" }}>© Copyright 2026. Made by Nilesh Patil</div>
 
         <div style={{ textAlign: "right" }}>
           <div style={{ color: "#fff", fontWeight: 600, marginBottom: 10 }}>Media</div>

@@ -44,7 +44,7 @@ const Card: React.FC<{ title: string; desc: string; tags: string[] }> = ({ title
 
 const ProjectsSection: React.FC = () => {
   return (
-    <section className="section-container">
+    <section className="section-container" id="works">
       <div className="section-header">
         <h2 className="section-title">#projects</h2>
         <a href="#works" className="view-all">View all →</a>

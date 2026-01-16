@@ -18,7 +18,7 @@ const Logo: React.FC = () => {
       }}
     >
       <img src="Logo.svg" alt="Logo" />
-      <span style={{ letterSpacing: 0.2 }}>Elias</span>
+      <span style={{ letterSpacing: 0.2 }}>cyber-hash-pro</span>
     </Link>
   );
 };

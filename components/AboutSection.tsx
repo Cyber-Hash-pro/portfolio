@@ -7,7 +7,7 @@ const AboutSection: React.FC = () => {
         <div>
           <h2 style={{ color: "#d6b7ff", marginTop: 0 }}>#about-me</h2>
           <p style={{ color: "#9aa0b4", fontSize: 16, lineHeight: 1.9 }}>
-            Hello, i&apos;m Elias!
+            Hello, i&apos;m Nilesh Patil!
             <br />
             <br />
             I&apos;m a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive
